@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: purple;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 6px 30px 0px #4A3561;
+  border-radius: 0 0 20px 20px;
+}
+
+#sobre-section, #skills-section, #act-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.title {
+  color: #ffffff;
+  background-color: #4A3561;
+  display: flex;
+  padding: 7px 4px 7px 4px;
+  border-radius: 12px;
+  font-size: 18px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+a {
+  color:#975cd6
+}
+
+.activities {
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.activities div {
+  margin-left: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: end;
+  font-size: 28px;
+  gap: 10px;
+}
+
+.social a {
+  color: white;
+}
+
+/* .skills {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+} */
+
+#act-section {
+  margin-bottom: 20px;
+}
+
+.skills li {
+  list-style: none;
+}
+
+.scratch {
+  height: 292px;
+  margin: 0 auto;
+  border: solid 10px purple;
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .activities {
+    display: block;
+  }
+
+  .scratch {
+    display: flex;
+    justify-content: center;
+  }
+}
